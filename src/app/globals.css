@@ -2,7 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* * {
+  background-color : #f8fbfb;
+  font-family : Fantasy;
+} */
+
+.custom-tooltip {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 8px; 
+  padding: 10px;
+  z-index: 1000;
+}
+
+.tooltip-content {
+  text-align: center;
+}
+
+.tooltip-label {
+  margin-bottom: 5px;
+}
+
+.tooltip-date {
+  font-weight: bold;
+  margin-right: 0.25rem
+}
+
+.tooltip-value {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip-icon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  bottom: -10px; /* Adjust this value for the arrow position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff; /* Match the background color of the tooltip */
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +76,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

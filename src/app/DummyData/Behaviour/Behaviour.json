@@ -1,0 +1,147 @@
+[
+    {
+        "country": "United States",
+        "country_code": "US",
+        "signupCount": 80500,
+        "topCity": {
+            "city": "New York",
+            "signupCount": 35000
+        }
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "UK",
+        "signupCount": 73500,
+        "topCity": {
+            "city": "London",
+            "signupCount": 28500
+        }
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "signupCount": 60000,
+        "topCity": {
+            "city": "Toronto",
+            "signupCount": 25500
+        }
+    },
+    {
+        "country": "Australia",
+        "country_code": "AU",
+        "signupCount": 50500,
+        "topCity": {
+            "city": "Sydney",
+            "signupCount": 20500
+        }
+    },
+    
+    {
+        "country": "Germany",
+        "country_code": "DE",
+        "signupCount": 69500,
+        "topCity": {
+            "city": "Berlin",
+            "signupCount": 34500
+        }
+    },
+    {
+        "country": "Other",
+        "country_code": "OT",
+        "signupCount": 40500,
+        "topCity": {
+            "city": "Other",
+            "signupCount": 15500
+        }
+    },
+    {
+        "country": "France",
+        "country_code": "FR",
+        "signupCount": 71500,
+        "topCity": {
+            "city": "Paris",
+            "signupCount": 35500
+        }
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "signupCount": 73500,
+        "topCity": {
+            "city": "Madrid",
+            "signupCount": 36500
+        }
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "signupCount": 75000,
+        "topCity": {
+            "city": "Vancouver",
+            "signupCount": 33000
+        }
+    },
+    {
+        "country": "Australia",
+        "country_code": "AU",
+        "signupCount": 77500,
+        "topCity": {
+            "city": "Melbourne",
+            "signupCount": 34000
+        }
+    },
+    {
+        "country": "Germany",
+        "country_code": "DE",
+        "signupCount": 79500,
+        "topCity": {
+            "city": "Munich",
+            "signupCount": 35000
+        }
+    },
+    {
+        "country": "France",
+        "country_code": "FR",
+        "signupCount": 81500,
+        "topCity": {
+            "city": "Marseille",
+            "signupCount": 36000
+        }
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "signupCount": 83500,
+        "topCity": {
+            "city": "Barcelona",
+            "signupCount": 37000
+        }
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "signupCount": 85500,
+        "topCity": {
+            "city": "Los Angeles",
+            "signupCount": 30500
+        }
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "UK",
+        "signupCount": 87500,
+        "topCity": {
+            "city": "Manchester",
+            "signupCount": 32000
+        }
+    },
+    {
+        "country": "Italy",
+        "country_code": "IT",
+        "signupCount": 89500,
+        "topCity": {
+            "city": "Rome",
+            "signupCount": 33500
+        }
+    }
+]

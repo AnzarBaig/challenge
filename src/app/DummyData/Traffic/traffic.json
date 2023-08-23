@@ -1,0 +1,122 @@
+[
+    {
+        "source": "Google",
+        "traffic": 1000,
+        "topCity": {
+            "city": "New York",
+            "count": 500
+        }
+    },
+    {
+        "source": "Facebook",
+        "traffic": 800,
+        "topCity": {
+            "city": "San Francisco",
+            "count": 400
+        }
+    },
+    {
+        "source": "LinkedIn",
+        "traffic": 600,
+        "topCity": {
+            "city": "Boston",
+            "count": 350
+        }
+    },
+    {
+        "source": "Twitter",
+        "traffic": 400,
+        "topCity": {
+            "city": "Miami",
+            "count": 200
+        }
+    },
+    {
+        "source": "Instagram",
+        "traffic": 300,
+        "topCity": {
+            "city": "Paris",
+            "count": 150
+        }
+    },
+    {
+        "source": "Other",
+        "traffic": 300,
+        "topCity": {
+            "city": "Other City",
+            "count": 150
+        }
+    },
+    {
+        "source": "YouTube",
+        "traffic": 1200,
+        "topCity": {
+            "city": "Los Angeles",
+            "count": 700
+        }
+    },
+    {
+        "source": "Pinterest",
+        "traffic": 250,
+        "topCity": {
+            "city": "San Francisco",
+            "count": 100
+        }
+    },
+    {
+        "source": "Reddit",
+        "traffic": 180,
+        "topCity": {
+            "city": "Seattle",
+            "count": 80
+        }
+    },
+    {
+        "source": "TikTok",
+        "traffic": 550,
+        "topCity": {
+            "city": "New York",
+            "count": 250
+        }
+    },
+    {
+        "source": "Snapchat",
+        "traffic": 320,
+        "topCity": {
+            "city": "Chicago",
+            "count": 180
+        }
+    },
+    {
+        "source": "WhatsApp",
+        "traffic": 420,
+        "topCity": {
+            "city": "London",
+            "count": 240
+        }
+    },
+    {
+        "source": "WeChat",
+        "traffic": 560,
+        "topCity": {
+            "city": "Shanghai",
+            "count": 320
+        }
+    },
+    {
+        "source": "Telegram",
+        "traffic": 200,
+        "topCity": {
+            "city": "Moscow",
+            "count": 100
+        }
+    },
+    {
+        "source": "Twitter",
+        "traffic": 480,
+        "topCity": {
+            "city": "Tokyo",
+            "count": 220
+        }
+    }
+]

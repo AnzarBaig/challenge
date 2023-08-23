@@ -1,0 +1,142 @@
+[
+    {
+    "datetime": "2023-08-23T08:00:00Z",
+    "totalSignups": 335
+    },
+    {
+    "datetime": "2023-08-23T09:00:00Z",
+    "totalSignups": 462
+    },
+    {
+    "datetime": "2023-08-23T10:00:00Z",
+    "totalSignups": 490
+    },
+    {
+    "datetime": "2023-08-23T11:00:00Z",
+    "totalSignups": 517
+    },
+    {
+    "datetime": "2023-08-23T12:00:00Z",
+    "totalSignups": 543
+    },
+    {
+    "datetime": "2023-08-23T13:00:00Z",
+    "totalSignups": 669
+    },
+    {
+    "datetime": "2023-08-23T14:00:00Z",
+    "totalSignups": 796
+    },
+    {
+    "datetime": "2023-08-23T15:00:00Z",
+    "totalSignups": 722
+    },
+    {
+    "datetime": "2023-08-23T16:00:00Z",
+    "totalSignups": 648
+    },
+    {
+    "datetime": "2023-08-23T17:00:00Z",
+    "totalSignups": 675
+    },
+    {
+    "datetime": "2023-08-23T18:00:00Z",
+    "totalSignups": 703
+    },
+    {
+    "datetime": "2023-08-23T19:00:00Z",
+    "totalSignups": 730
+    },
+    {
+    "datetime": "2023-08-23T20:00:00Z",
+    "totalSignups": 758
+    },
+    {
+    "datetime": "2023-08-23T21:00:00Z",
+    "totalSignups": 787
+    },
+    {
+    "datetime": "2023-08-23T22:00:00Z",
+    "totalSignups": 906
+    },
+    {
+    "datetime": "2023-08-23T23:00:00Z",
+    "totalSignups": 846
+    },
+    {
+    "datetime": "2023-08-24T00:00:00Z",
+    "totalSignups": 877
+    },
+    {
+    "datetime": "2023-08-24T01:00:00Z",
+    "totalSignups": 909
+    },
+    {
+    "datetime": "2023-08-24T02:00:00Z",
+    "totalSignups": 942
+    },
+    {
+    "datetime": "2023-08-24T03:00:00Z",
+    "totalSignups": 976
+    },
+    {
+    "datetime": "2023-08-24T04:00:00Z",
+    "totalSignups": 1011
+    },
+    {
+    "datetime": "2023-08-24T05:00:00Z",
+    "totalSignups": 1047
+    },
+    {
+    "datetime": "2023-08-24T06:00:00Z",
+    "totalSignups": 1084
+    },
+    {
+    "datetime": "2023-08-24T07:00:00Z",
+    "totalSignups": 1002
+    },
+    {
+    "datetime": "2023-08-24T08:00:00Z",
+    "totalSignups": 1161
+    },
+    {
+    "datetime": "2023-08-24T09:00:00Z",
+    "totalSignups": 1201
+    },
+    {
+    "datetime": "2023-08-24T10:00:00Z",
+    "totalSignups": 1242
+    },
+    {
+    "datetime": "2023-08-24T11:00:00Z",
+    "totalSignups": 1284
+    },
+    {
+    "datetime": "2023-08-24T12:00:00Z",
+    "totalSignups": 1127
+    },
+    {
+    "datetime": "2023-08-24T13:00:00Z",
+    "totalSignups": 1371
+    },
+    {
+    "datetime": "2023-08-24T14:00:00Z",
+    "totalSignups": 1216
+    },
+    {
+    "datetime": "2023-08-24T15:00:00Z",
+    "totalSignups": 1362
+    },
+    {
+    "datetime": "2023-08-24T16:00:00Z",
+    "totalSignups": 1589
+    },
+    {
+    "datetime": "2023-08-24T17:00:00Z",
+    "totalSignups": 1557
+    },
+    {
+    "datetime": "2023-08-24T18:00:00Z",
+    "totalSignups": 1606
+    }
+    ]

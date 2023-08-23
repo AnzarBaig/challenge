@@ -1,0 +1,122 @@
+[
+    {
+        "email": "user1@example.com",
+        "friendInvited": 5000,
+        "country": {
+            "name": "United States",
+            "code": "US"
+        }
+    },
+    {
+        "email": "user2@example.com",
+        "friendInvited": 4600,
+        "country": {
+            "name": "Canada",
+            "code": "CA"
+        }
+    },
+    {
+        "email": "user3@example.com",
+        "friendInvited": 3900,
+        "country": {
+            "name": "United Kingdom",
+            "code": "GB"
+        }
+    },
+    {
+        "email": "user4@example.com",
+        "friendInvited": 3100,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        }
+    },
+    {
+        "email": "user5@example.com",
+        "friendInvited": 2900,
+        "country": {
+            "name": "Germany",
+            "code": "DE"
+        }
+    },
+    {
+        "email": "user6@example.com",
+        "friendInvited": 2800,
+        "country": {
+            "name": "France",
+            "code": "FR"
+        }
+    },
+    {
+        "email": "user7@example.com",
+        "friendInvited": 2500,
+        "country": {
+            "name": "Spain",
+            "code": "ES"
+        }
+    },
+    {
+        "email": "user8@example.com",
+        "friendInvited": 2300,
+        "country": {
+            "name": "Italy",
+            "code": "IT"
+        }
+    },
+    {
+        "email": "user9@example.com",
+        "friendInvited": 2200,
+        "country": {
+            "name": "Netherlands",
+            "code": "NL"
+        }
+    },
+    {
+        "email": "user10@example.com",
+        "friendInvited": 1900,
+        "country": {
+            "name": "Switzerland",
+            "code": "CH"
+        }
+    },
+    {
+        "email": "user11@example.com",
+        "friendInvited": 1400,
+        "country": {
+            "name": "Sweden",
+            "code": "SE"
+        }
+    },
+    {
+        "email": "user12@example.com",
+        "friendInvited": 1200,
+        "country": {
+            "name": "Norway",
+            "code": "NO"
+        }
+    },
+    {
+        "email": "user13@example.com",
+        "friendInvited": 1000,
+        "country": {
+            "name": "Denmark",
+            "code": "DK"
+        }
+    },
+    {
+        "email": "user14@example.com",
+        "friendInvited": 800,
+        "country": {
+            "name": "Finland",
+            "code": "FI"
+        }
+    },
+    {
+        "email": "user15@example.com",
+        "friendInvited": 500,
+        "country": {
+            "name": "Ireland",
+            "code": "IE"
+        }
+    }
+]
