@@ -11,13 +11,13 @@ import { Button, Modal, SegmentedControl } from "@mantine/core";
 import useCountryFlag from "@/app/hooks/useCountryFlag";
 
 const SignupLocation: React.FC = () => {
-  const [data, setData] = useState<SignUpLocation[]>([]);
+  const [data, setData] = useState<SignUpLocation[]>([]); // Update the state type
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [displayOption, setDisplayOption] = useState<string>("country");
-  const [top5Data, setTop5Data] = useState<SignUpLocation[]>([]);
+  const [top5Data, setTop5Data] = useState<SignUpLocation[]>([]); // Update the state type
 
   useEffect(() => {
-    fetch("/api/signuplocations")
+    fetch("/api/signuplocations") // Update the API endpoint
       .then((response) => response.json())
       .then((responseData: SignUpLocation[]) => {
         setData(responseData);
@@ -81,7 +81,7 @@ const SignupLocation: React.FC = () => {
         <ResponsiveContainer width="100%" height={"85%"}>
           <BarChart
             data={
-              displayOption === "country"
+              displayOption === "country" // Update the data source
                 ? top5Data.map((item) => ({
                     name: item.country,
                     value: item.signupCount,

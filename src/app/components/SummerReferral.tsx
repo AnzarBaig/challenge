@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BarChart, Bar, CartesianGrid, ResponsiveContainer, Tooltip } from 'recharts';
-import { SegmentedControl, Loader } from '@mantine/core'; // Import Loader from Mantine
+import { SegmentedControl, Loader } from '@mantine/core';
 import { BiGroup } from 'react-icons/bi';
 
 type SignupData = {
@@ -9,15 +9,15 @@ type SignupData = {
   totalSignups: number;
 };
 
-const CustomTooltip = ({ active, payload, label, position }: any) => {
+const CustomTooltip = ({ active, payload, label }: any) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
-    const date = new Date(label);
+    const date = new Date(data.name);
     const month = date.toLocaleString('default', { month: 'long' });
     const day = date.getDate();
 
     return (
-      <div className="custom-tooltip" style={{ left: position.x, top: position.y }}>
+      <div className="custom-tooltip">
         <div className="tooltip-content">
           <div className="tooltip-value">
             <div className='tooltip-date'>{data.totalSignups}</div> signups
@@ -31,7 +31,6 @@ const CustomTooltip = ({ active, payload, label, position }: any) => {
 
   return null;
 };
-
 
 const SummerReferral: React.FC = () => {
   const [data, setData] = useState<SignupData[]>([]);
@@ -125,7 +124,7 @@ const SummerReferral: React.FC = () => {
                   cursor={{ fill: 'transparent' }}
                   content={<CustomTooltip />}
                   isAnimationActive={false}
-                  position={{ x: posData.x - 50, y: posData.y - 85 }}
+                  position={{ x: posData.x - 54, y: posData.y - 85 }}
                 />
                 <Bar
                   dataKey="totalSignups"
