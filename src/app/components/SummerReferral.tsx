@@ -12,6 +12,9 @@ type SignupData = {
 const CustomTooltip = ({ active, payload, label }: any) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
+    const date = new Date(label);
+    const month = date.toLocaleString('default', { month: 'long' });
+    const day = date.getDate();
 
     return (
       <div className="custom-tooltip">
@@ -19,7 +22,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
           <div className="tooltip-value">
             <div className='tooltip-date'>{data.totalSignups}</div> signups
           </div>
-          <div className="tooltip-label">{new Date(label).toLocaleDateString()}</div>
+          <div className="tooltip-label">{`${month} ${day}`}</div>
         </div>
         <div className="tooltip-arrow" />
       </div>
@@ -93,7 +96,6 @@ const SummerReferral: React.FC = () => {
             data={timeIntervalOptions}
             color=""
             transitionDuration={0}
-            // Apply custom styles to the SegmentedControl
             styles={segmentedControlStyles}
             className="shadow-[rgba(0,_0,_0,_0.3)_0px_3px_5px]"
           />
