@@ -9,7 +9,7 @@ type SignupData = {
   totalSignups: number;
 };
 
-const CustomTooltip = ({ active, payload, label }: any) => {
+const CustomTooltip = ({ active, payload, label, position }: any) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
     const date = new Date(label);
@@ -17,7 +17,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
     const day = date.getDate();
 
     return (
-      <div className="custom-tooltip">
+      <div className="custom-tooltip" style={{ left: position.x, top: position.y }}>
         <div className="tooltip-content">
           <div className="tooltip-value">
             <div className='tooltip-date'>{data.totalSignups}</div> signups
@@ -31,6 +31,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
 
   return null;
 };
+
 
 const SummerReferral: React.FC = () => {
   const [data, setData] = useState<SignupData[]>([]);
@@ -83,10 +84,10 @@ const SummerReferral: React.FC = () => {
   return (
     <div className="mx-10 p-4">
       <div className="flex justify-between items-center m-10 mb-4">
-        {loading ? null : ( // Conditionally render "Summer referral competition" text when not loading
+        {loading ? null : (
           <div className="font-bold text-2xl">Summer referral competition</div>
         )}
-        {loading ? null : ( // Conditionally render SegmentedControl when not loading
+        {loading ? null : (
           <SegmentedControl
             fullWidth
             radius={12}
@@ -102,7 +103,7 @@ const SummerReferral: React.FC = () => {
         )}
       </div>
       <div className="bg-white shadow-[rgba(0,_0,_0,_0.1)_4px_4px_5px] rounded-md m-10 p-4 relative">
-        {loading ? null : ( // Conditionally render "100,000 Participants" text when not loading
+        {loading ? null : (
           <div className="absolute top-7 left-7 text-xl font-bold z-10">
             <div className="font-bold text-4xl flex items-center">
               100,000 <BiGroup className="ml-2" />

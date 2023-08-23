@@ -43,7 +43,7 @@ const Traffic: React.FC = () => {
       backgroundColor: 'white', // Set the background color of the SegmentedControl
     },
     control: {
-      margin: '5px', // Add margin to each butto
+      margin: '5px', // Margin to each button
       border: 'none',
       outline: 'none', // Remove the blue outline on focus
     },

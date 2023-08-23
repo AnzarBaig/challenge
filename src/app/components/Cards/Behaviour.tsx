@@ -10,10 +10,10 @@ import {
 import { Button, Modal, SegmentedControl } from "@mantine/core";
 
 const SignupLocation: React.FC = () => {
-  const [data, setData] = useState<SignUpLocation[]>([]); // Update the state type
+  const [data, setData] = useState<SignUpLocation[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [displayOption, setDisplayOption] = useState<string>("country");
-  const [top5Data, setTop5Data] = useState<SignUpLocation[]>([]); // Update the state type
+  const [top5Data, setTop5Data] = useState<SignUpLocation[]>([]);
 
   useEffect(() => {
     fetch("/api/behaviour")
@@ -59,7 +59,6 @@ const SignupLocation: React.FC = () => {
       style={{ width: "32rem", height: "350px" }}
     >
       <div style={{ width: "100%", height: 300 }}>
-        {/* Keep your existing styling here */}
         <div className="flex justify-between items-center">
           <h2 className="text-xl font-semibold">Behaviour</h2>
           <SegmentedControl
@@ -76,7 +75,6 @@ const SignupLocation: React.FC = () => {
             styles={segmentedControlStyles}
           />
         </div>
-        {/* End of existing styling */}
         <ResponsiveContainer width="100%" height={"85%"}>
           <BarChart
             data={
@@ -122,7 +120,6 @@ const SignupLocation: React.FC = () => {
         opened={isModalOpen}
         onClose={handleModalClose}
       >
-        {/* Render the remaining data in a custom table */}
         <table className="w-full">
           <thead>
             <tr>

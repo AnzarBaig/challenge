@@ -42,7 +42,7 @@ const UserLeaderboard: React.FC = () => {
       <h2 className="text-2xl font-semibold mb-4">User leaderboard</h2>
       <div className="max-w-full overflow-y-auto">
         <Table
-          style={{ border: "none", borderCollapse: "collapse" }} // Add borderCollapse style
+          style={{ border: "none", borderCollapse: "collapse" }}
           className="max-w-full"
         >
           <thead>
