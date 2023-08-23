@@ -1,15 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Table, Modal, Button } from "@mantine/core";
 
-interface UserData {
-  email: string;
-  friendInvited: number;
-  country: {
-    name: string;
-    code: string;
-  };
-}
-
 const UserLeaderboard: React.FC = () => {
   const [userLeaderboardData, setUserLeaderboardData] = useState<UserData[]>(
     []

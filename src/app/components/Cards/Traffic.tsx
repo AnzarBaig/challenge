@@ -1,5 +1,3 @@
-'use client'
-
 import React, { useEffect, useState } from "react";
 import {
   ResponsiveContainer,
@@ -10,15 +8,6 @@ import {
   LabelList,
 } from "recharts";
 import { Button, Modal, SegmentedControl } from "@mantine/core";
-
-type TrafficData = {
-  source: string;
-  traffic: number;
-  topCity: {
-    city: string;
-    count: number;
-  };
-};
 
 const Traffic: React.FC = () => {
   const [data, setData] = useState<TrafficData[]>([]);

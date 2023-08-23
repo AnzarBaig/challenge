@@ -11,7 +11,7 @@
     {
         "country": "United Kingdom",
         "country_code": "UK",
-        "signupCount": 73500,
+        "signupCount": 63500,
         "topCity": {
             "city": "London",
             "signupCount": 28500
@@ -20,7 +20,7 @@
     {
         "country": "Canada",
         "country_code": "CA",
-        "signupCount": 60000,
+        "signupCount": 50000,
         "topCity": {
             "city": "Toronto",
             "signupCount": 25500
@@ -29,7 +29,7 @@
     {
         "country": "Australia",
         "country_code": "AU",
-        "signupCount": 50500,
+        "signupCount": 40500,
         "topCity": {
             "city": "Sydney",
             "signupCount": 20500
@@ -38,19 +38,19 @@
     {
         "country": "Germany",
         "country_code": "DE",
-        "signupCount": 69500,
+        "signupCount": 30500,
         "topCity": {
             "city": "Berlin",
-            "signupCount": 34500
+            "signupCount": 15500
         }
     },
     {
         "country": "Other",
         "country_code": "OT",
-        "signupCount": 40500,
+        "signupCount": 20500,
         "topCity": {
             "city": "Other",
-            "signupCount": 15500
+            "signupCount": 10500
         }
     },
     {
